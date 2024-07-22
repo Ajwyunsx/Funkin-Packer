@@ -54,8 +54,8 @@
     }
   ],
   "scripts": {
-    "start": "webpack-dev-server --host 127.0.0.1 --port 4000",
-    "start-electron": "webpack-dev-server --host 127.0.0.1 --port 4000 --platform electron",
+    "start": "webpack-dev-server --host 0.0.0.1 --port 4000",
+    "start-electron": "webpack-dev-server --host 0.0.0.0 --port 4000 --platform electron",
     "build": "webpack",
     "build-web": "webpack --build --platform web",
     "build-web-watch": "webpack --build --watch --platform web",
